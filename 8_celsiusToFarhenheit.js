@@ -17,9 +17,9 @@ console.log(
 
 // farhenheit to celsius 
 
-// let farhenheitTemp = 74;
-// const celsiusToFarhenheit = (n) => {
-//   return ((n - 32) * 5) / 9;
-// };
+let farhenheitTemp = 74;
+const celsiusToFarhenheit = (n) => {
+  return ((n - 32) * 5) / 9;
+};
 
-// console.log(celsiusToFarhenheit(farhenheitTemp));
+console.log(celsiusToFarhenheit(farhenheitTemp));
