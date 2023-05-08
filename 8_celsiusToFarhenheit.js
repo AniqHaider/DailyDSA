@@ -23,3 +23,5 @@ const celsiusToFarhenheit = (n) => {
 };
 
 console.log(celsiusToFarhenheit(farhenheitTemp));
+
+// need review
