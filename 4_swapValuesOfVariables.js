@@ -25,6 +25,8 @@ num1 = num1 - num2;
 console.log(num1);
 console.log(num2);
 
+// storing and reassigning values in such a way that we reassign them by the substraction
+
 // method 3
 console.log("method 3")
 let number1 = 12;

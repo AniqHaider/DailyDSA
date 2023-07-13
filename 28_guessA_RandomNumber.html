@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>GUESS THE NUMBER</title>
+  </head>
+  <body>
+    <script>
+      function guessNumber() {
+        const randomNum = Math.floor(Math.random() * 10) + 1;
+        let num = parseInt(prompt("Guess the number from 1 to 10: "));
+        while (num !== randomNum) {
+          num = parseInt(prompt("Guess the number from 1 to 10: "));
+        }
+        if (num == randomNum) {
+          console.log("You guessed the correct number.");
+        }
+      }
+
+      guessNumber();
+    </script>
+  </body>
+</html>
