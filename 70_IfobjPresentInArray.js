@@ -6,5 +6,6 @@ const checkIfArray = (obj) => {
 let myArray = [1, 2, 3, 4, 5];
 let myObject = { name: "John", age: 25 };
 
+
 console.log(checkIfArray(myArray));
 console.log(checkIfArray(myObject));
